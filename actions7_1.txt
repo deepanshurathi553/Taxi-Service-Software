@@ -1,0 +1,23 @@
+edge indiagate chanakyapuri 80
+edge indiagate AIIMS 30
+edge iitmaingate saket 10
+edge indiagate lajpatnagar 50
+edge chanakyapuri AIIMS 50
+edge AIIMS lajpatnagar 15
+edge chanakyapuri iitmaingate 50
+edge AIIMS iitmaingate 35
+edge lajpatnagar iitmaingate 15
+edge lajpatnagar saket 35
+edge lajpatnagar nehruplace 25
+edge nehruplace indiagate 50
+taxi shaktimaan saket
+taxi batman AIIMS
+taxi superman chanakyapuri
+printTaxiPosition 4
+customer indiagate saket 5
+customer saket nehruplace 95
+customer indiagate iitmaingate 115
+printTaxiPosition 120
+printTaxiPosition 150
+printTaxiPosition 200
+printTaxiPosition 260

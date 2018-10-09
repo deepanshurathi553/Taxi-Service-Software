@@ -1,0 +1,88 @@
+action to be performed: edge indiagate chanakyapuri 80
+edge added
+
+action to be performed: edge indiagate AIIMS 30
+edge added
+
+action to be performed: edge iitmaingate saket 10
+edge added
+
+action to be performed: edge indiagate lajpatnagar 50
+edge added
+
+action to be performed: edge chanakyapuri AIIMS 50
+edge added
+
+action to be performed: edge AIIMS lajpatnagar 15
+edge added
+
+action to be performed: edge chanakyapuri iitmaingate 50
+edge added
+
+action to be performed: edge AIIMS iitmaingate 35
+edge added
+
+action to be performed: edge lajpatnagar iitmaingate 15
+edge added
+
+action to be performed: edge lajpatnagar saket 35
+edge added
+
+action to be performed: edge lajpatnagar nehruplace 25
+edge added
+
+action to be performed: edge nehruplace indiagate 50
+edge added
+
+action to be performed: taxi shaktimaan saket
+taxi added successfully
+
+action to be performed: taxi batman AIIMS
+taxi added successfully
+
+action to be performed: taxi superman chanakyapuri
+taxi added successfully
+
+action to be performed: printTaxiPosition 4
+shaktimaan: saket
+batman: AIIMS
+superman: chanakyapuri
+
+action to be performed: customer indiagate saket 5
+Available taxis:
+Path of shaktimaan: saket, iitmaingate, lajpatnagar, AIIMS, indiagate. time taken is 70 units.
+Path of batman: AIIMS, indiagate. time taken is 30 units.
+Path of superman: chanakyapuri, indiagate. time taken is 80 units.
+** Chose batman to service the customer request ***
+Path of customer: indiagate, AIIMS, lajpatnagar, iitmaingate, saket. time taken is70 units.
+
+action to be performed: customer saket nehruplace 95
+Available taxis:
+Path of shaktimaan: saket. time taken is 0 units.
+Path of superman: chanakyapuri, iitmaingate, saket. time taken is 60 units.
+** Chose shaktimaan to service the customer request ***
+Path of customer: saket, iitmaingate, lajpatnagar, nehruplace. time taken is 50 units.
+
+action to be performed: customer indiagate iitmaingate 115
+Available taxis:
+Path of batman: saket, iitmaingate, lajpatnagar, AIIMS, indiagate. time taken is 70 units.
+Path of superman: chanakyapuri, indiagate. time taken is 80 units.
+** Chose batman to service the customer request ***
+Path of customer: indiagate, AIIMS, lajpatnagar, iitmaingate. time taken is60 units.
+
+action to be performed: printTaxiPosition 120
+superman: chanakyapuri
+
+action to be performed: printTaxiPosition 150
+shaktimaan: nehruplace
+superman: chanakyapuri
+
+action to be performed: printTaxiPosition 200
+shaktimaan: nehruplace
+superman: chanakyapuri
+
+action to be performed: printTaxiPosition 260
+shaktimaan: nehruplace
+batman: iitmaingate
+superman: chanakyapuri
+
